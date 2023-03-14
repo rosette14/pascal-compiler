@@ -1,0 +1,170 @@
+
+program hello;
+
+var number:integer;
+
+
+function mul(num:integer):integer;
+var res:integer;
+begin
+res:=1;
+res:=num*10;
+end
+return res
+;
+
+begin
+number:=mul(5);
+end.
+
+////////////////////////////
+
+
+program hello;
+
+var index:integer;
+var res :integer;
+begin
+res:=1;
+for index:=1 to 5 do
+begin
+res:=res*index;
+end;
+end.
+///////////////////////////////////////
+program hello;
+
+var num:integer;
+var res:integer;
+
+
+begin
+
+res:=1;
+num:=5;
+while num>0 do
+begin
+res:=res*num;
+num:=num-1;
+end;
+
+end.
+
+
+/////////////////////////////////
+program hello;
+var d,o:string;
+function g(k:integer):integer;
+var o:real;
+begin
+write(o);
+write(d);
+write(m);
+end;
+
+procedure k(o:real);
+var o:integer;
+begin
+end;
+
+function g(p:integer):integer;
+begin
+write(k);
+end;
+
+function g(p,o:integer):integer;
+begin
+end;
+
+function g(p:integer;p:integer):integer;
+begin
+end;
+
+begin
+
+
+write('helllllllllo');
+u:=1;
+
+end.
+
+
+////////////////////////////////////////////////////////////////////
+
+
+
+program hello;
+
+var number:integer;
+
+var num1:integer;
+
+var ch:char;
+
+var str:string;
+
+var num2:real;
+
+var l:array [3;4] of integer;
+
+function func1(m,n:integer;l:real):integer;
+var o:integer;
+begin
+write(l+n+m);
+end;
+
+function func2(m,n:integer;l:real):integer;
+var o:boolean;
+begin
+write(l+n+m);
+end
+return o
+;
+
+function func3(n:integer):integer;
+var o:integer;
+begin
+o:=n*6;
+end
+return o
+;
+
+procedure proc1(h:integer);
+var k:integer;
+begin
+end
+return k
+;
+
+begin
+
+number:=f(5,4);
+
+number:=ch+num1;
+
+func3(4);
+
+proc1(2);
+
+proc2(7);
+
+str:=func3(3.4);
+
+str:=func3(3);
+
+l[6]:=5.4;
+
+if 5 then
+begin
+
+end;
+
+
+for num2:=2 to 4 do
+begin
+end;
+
+end.
+
+
+///////////////////////////////////////////

@@ -1,0 +1,32 @@
+
+
+program hello;
+
+var number:integer;
+
+var num1:integer;
+
+var ch:char;
+
+var str:string;
+
+var num2:real;
+
+var l:array [3;4] of integer;
+
+
+function func4(n:array[3;4] of integer):integer;
+var o:integer;
+begin
+write(o);
+end
+return o;
+
+
+begin
+
+
+num1:=func4(l);
+
+
+end.

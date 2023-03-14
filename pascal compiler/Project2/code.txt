@@ -1,0 +1,28 @@
+start 
+pushi 0
+storeg 999
+pushg 999
+pushi 0
+storeg 998
+pushg 998
+pushf 0.0
+storeg 997
+pushg 997
+pushi 0
+storeg 996
+pushg 996
+pushg 996
+pusha func4_1
+call
+pop 1
+pushg 995
+storeg 998
+pushg 998
+stop 
+func4_1:
+pushi 0
+storel 0
+pushl 0
+storeg 995
+pushg 995
+return 
